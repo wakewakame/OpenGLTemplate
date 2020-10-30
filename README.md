@@ -1,17 +1,17 @@
-# jummmp
-大学3年生の頃に作った作品です。  
-自分の実力を試すため、自分が使える技術をできるだけ盛り込みました。  
+# OpenGLTemplate
+OpenGLとOpenALを用いた開発環境の雛形です。
 
 # ビルド方法&実行方法
 gitとcmakeが必要になります。  
+
 ```
-$ git clone https://github.com/wakewakame/jummmp
-$ cd jummmp
+$ git clone https://github.com/wakewakame/OpenGLTemplate
+$ cd OpenGLTemplate
 $ git submodule update --init --recursive
 $ mkdir build && cd build
 $ cmake ..
 $ make
-$ ./jummmp
+$ ./OpenGLTemplate
 ```
 
 # 参考
